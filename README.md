@@ -1,5 +1,7 @@
 # 📚 강의 자동 정리기 (Lecture Auto-Summarizer)
 
+test test test test test test test test
+
 > 강의 녹취·슬라이드를 넣으면 **LLM이 내 정리 가이드대로 요약 → 다중 에이전트 품질 검증 → 자동 재작성**하고,
 > 결과를 **Markdown · PDF · Notion**으로 내보내는 웹 애플리케이션.
 
