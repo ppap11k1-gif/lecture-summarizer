@@ -16,7 +16,7 @@
 | 출력 | Markdown, PDF, Notion 페이지, Slack 완료 알림 |
 | 배포 | 로컬, Streamlit Cloud, Hugging Face Spaces, VPS Docker |
 
-## 뭘 했는지 요약
+## 프로젝트 개요
 
 강의 자료를 독학용 정리본으로 바꾸는 개인 학습 자동화 도구를 만들었습니다. 사용자는 클로바노트 텍스트, 강의 슬라이드 PDF, 직접 붙여넣은 텍스트, 음성 녹음 파일을 입력할 수 있습니다.
 
