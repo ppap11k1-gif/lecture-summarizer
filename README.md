@@ -24,7 +24,7 @@
 
 최종 결과는 화면에서 확인하고 Markdown/PDF로 내려받을 수 있으며, 필요하면 Notion 페이지로 저장하고 Slack으로 완료 알림도 보낼 수 있습니다.
 
-## 특별히 신경쓴 부분
+## 핵심 설계와 구현 포인트
 
 ### 1. 단순 요약이 아니라 품질 검증 루프로 설계
 
@@ -125,6 +125,8 @@ SLACK_WEBHOOK=optional
 
 PDF 출력을 사용하려면 Chrome 또는 Chromium 기반 브라우저가 필요합니다.
 
+`.env`에는 실제 API 키가 들어가므로 커밋하지 않습니다. 저장소에는 `.gitignore`로 `.env`, 캐시, 임시 출력물을 제외하도록 설정했습니다.
+
 ## 배포
 
 | 방식 | PDF | 특징 |
@@ -150,6 +152,7 @@ docker run -p 7860:7860 lecture-summarizer
 ├── template.html       # PDF 스타일과 MathJax 렌더링
 ├── Dockerfile          # Docker 배포 설정
 ├── requirements.txt    # Python 의존성
+├── .gitignore          # API 키, 캐시, 임시 출력물 제외
 ├── run.bat             # Windows 로컬 실행
 ├── run_exe.py          # exe 패키징 진입점
 └── README.txt          # 보조 설명 파일

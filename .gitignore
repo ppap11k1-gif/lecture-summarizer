@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+*.pdf
+*.html
+!template.html
+summary_in.md
+summary_out.pdf
+desktop.ini
+.DS_Store
